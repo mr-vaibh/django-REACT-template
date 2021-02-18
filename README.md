@@ -13,7 +13,7 @@ An utterly fantastic project starter template for Django 3.1.
 To use this project, follow these steps:
 
 1. Create your working environment.
-2. Install Django (`$ pipenv install django`)
+2. Install backend dependencies (`$ pipenv install`)
 3. Create a new project using this template
 
 ## Creating Your Project
