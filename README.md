@@ -30,8 +30,13 @@ You can replace ``djangoproject`` with your desired project name.
 [https://docs.djangoproject.com/en/3.1/howto/static-files/](https://docs.djangoproject.com/en/3.1/howto/static-files/)
 
 ## For FRONTEND
-Run ``$ npm install``
+Goto `cd .\frontenv`
+Run `$ npm install`
+and in same directory run `npm run dev` (for development) or `npm run build` (for production)
 
+
+
+===
 
 ## Deployment to Heroku
 
