@@ -37,6 +37,8 @@ and in same directory run `npm run dev` (for development) or `npm run build` (fo
 ## For .ENV environment variable
 https://help.pythonanywhere.com/pages/environment-variables-for-web-apps/
 
+Run `pip install python-dotenv`
+
 Write this in `manage.py` and before calling `get_wsgi_application` in `_wsgi.py_`
 
     # working with environment variables
