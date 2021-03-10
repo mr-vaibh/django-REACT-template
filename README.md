@@ -34,9 +34,20 @@ Goto `cd .\frontenv`
 Run `$ npm install`
 and in same directory run `npm run dev` (for development) or `npm run build` (for production)
 
+## For .ENV environment variable
+https://help.pythonanywhere.com/pages/environment-variables-for-web-apps/
+
+Write this before calling `get_wsgi_application` in _wsgi.py_
+``import os
+from dotenv import load_dotenv
+project_folder = os.path.expanduser('~/my-project-dir')  # adjust as appropriate
+load_dotenv(os.path.join(project_folder, '.env'))``
+Usage in module
+``import os
+SECRET_KEY = os.environ["SECRET_KEY"]``
 
 
-===
+---
 
 ## Deployment to Heroku
 
