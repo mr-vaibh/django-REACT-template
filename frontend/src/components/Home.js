@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Content() {
+export default function Home() {
     return (
         <div className="container">
             <div className="starter-template">
